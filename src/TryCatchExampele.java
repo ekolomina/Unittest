@@ -14,7 +14,10 @@ public class TryCatchExampele {
         }
         catch (Exception e) {
             e.printStackTrace();
-
+            System.out.println("На ноль делить нельзя");
+        }
+        finally {
+            System.out.println(number+1);
         }
 
 
